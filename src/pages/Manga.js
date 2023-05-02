@@ -36,6 +36,7 @@ export default function Manga() {
                         manga_type={obj.manga_type}
                         rate='0.0'
                         total_reviews='0'
+                        manga_id={obj.manga_id}
                     />
                 })}
 
