@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Manga from './pages/Manga';
 import Request from './pages/Request';
 import Profile from './pages/Profile';
+import MangaList from './pages/MangaList';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route index element={<Home />} />
           <Route path='manga/:id' element={<Manga />} />
+          <Route path='mangalist' element={<MangaList />} />
           <Route path='mangarequest' element={<Request />} />
           <Route path='profile' element={<Profile />} />
         </Routes>

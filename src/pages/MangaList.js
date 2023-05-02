@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 
 
-export default function Request() {
+export default function MangaList() {
     const [loading, setLoading] = useState(true);
 
     if (loading) return <HomeLoading />
-
+    
     return (
         <div>
-            This is for Requested Mangas
+            This is the manga list page
         </div>
     )
 }
