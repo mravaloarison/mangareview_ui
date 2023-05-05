@@ -4,7 +4,7 @@ export default function MangaDescription(props) {
 
             <div class="flex flex-col gap-4">
                 <img alt={props.title} className="h-96 w-72 mx-auto bg-cover bg-center shadow-lg rounded" src={props.poster_image} />
-                <button className="w-72 mx-auto border border-amber-700 rounded-md shadow-sm p-2.5 bg-amber-700 text-slate-50">Add to your list</button>
+                <button className="w-72 mx-auto border border-amber-700 rounded-md shadow-sm p-2.5 bg-amber-700 text-slate-50" onClick={() => alert("Clicked!")}>Add to your list</button>
                 <button className="w-72 mx-auto border rounded-md shadow-sm p-2.5">Request manga</button>
             </div>
 

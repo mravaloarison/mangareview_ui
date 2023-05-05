@@ -33,7 +33,7 @@ export default function Nav() {
 
 
     return (
-        <div className="border rounded-lg shadow w-fit h-fit absolute right-0 mr-20 mt-2.5 z-50 bg-white">
+        <div className="border rounded-lg shadow w-fit h-fit absolute right-0 lg:mr-20 mr-2.5 mt-2.5 z-50 bg-white">
             <ul className="flex flex-col gap-1.5 p-1.5">
                 {navItems.map((item, index) => (
                 <li key={index}>
